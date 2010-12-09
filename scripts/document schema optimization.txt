@@ -1,0 +1,7 @@
+Document Schema Optimization
+
+1. Don't use isoformat() on date field in order for internal db storrage to store date value as int64
+
+2. Store raw_data as dictionary {"1": "val1", "2": "val2"}
+
+3. See how we can merge these data files together.
