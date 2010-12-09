@@ -4,7 +4,7 @@ import os, sys, commands
 
 # Extract all zip files of Census Data - Summary File 1
 source_path = "/home/qbui/census/Summary_File_1"
-target_path = "/home/qbui/census/extract"
+target_path = "/data/census/extract"
 
 if os.path.isdir(source_path) == False:
    raise ValueError, "source path does not existed"
